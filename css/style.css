@@ -1,0 +1,36 @@
+body {
+    font-family:"Roboto Slab";
+    background-color:#FFE9D6;
+    color: #422A32;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Bricolage Groteque";
+    font-size:35pt;
+}
+
+header {
+    text-align:center;
+}
+
+#hero {
+    background-color:#89C792;
+    border: 2px solid #89C792;
+    text-align:center;
+    padding:10px;
+}
+
+#hero img {
+    width:300px;
+}
+
+#bio {
+    text-align:center;
+}
+
+footer {
+    background-color:#89C792;
+    border: 2px solid #89C792;
+    text-align:center;
+    padding:10px;
+}
