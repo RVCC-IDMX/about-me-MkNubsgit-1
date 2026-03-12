@@ -28,6 +28,7 @@ header {
     text-align:center;
 }
 
+/*hobbies*/
 #hobbies ul {
     list-style: square;
     text-align: left;
@@ -37,6 +38,40 @@ header {
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem 2rem;
 }
+
+/*Gallery*/
+#gallery {
+    max-width: 100%;
+    max-width: 60rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    border: 0.5rem solid #422A32;
+}
+#gallery figure {
+    text-align: center;
+}
+
+/*Literature*/
+#lit {
+    padding: 2rem;
+    border: 0.5rem solid #422A32;
+    margin-bottom: 2rem;
+    max-width: 50rem;
+    margin: 0 auto;
+    text-align: left;
+}
+    /*Dropcaps*/
+#lit div p::first-letter {
+    color: #brown;
+    float: left;
+    font-size: 3em;
+    padding: 0.35 em;
+    margin-right: 0.25 em;
+    line-height: .65;
+    border: 4px outset #422A32;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
 
 footer {
     background-color:#89C792;
