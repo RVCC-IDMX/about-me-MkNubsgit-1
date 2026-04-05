@@ -72,6 +72,24 @@ header {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
+#video {
+    text-align: center;
+    margin: 2rem 0;
+}
+#myVideo {
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.video-caption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
+}
 
 footer {
     background-color:#89C792;
