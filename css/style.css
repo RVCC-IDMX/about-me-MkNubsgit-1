@@ -91,6 +91,140 @@ header {
     color: #555;
 }
 
+
+/*CONTACT SECTION*/
+#contact {
+    max-width: 50rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+#contact h2 {
+    text-align: center;
+}
+#contact form > fieldset {
+    background-color: #89C792;
+    border: 0.5rem solid #422A32;
+    padding: 2rem 2rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.4rem 1rem;
+}
+#contact legend {
+    font-family: "Bricolage Grotesque";
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #422A32;
+    padding: 0;
+    float: left;
+    margin-bottom: 0.75rem;
+}
+#contact label {
+    font-weight: bold;
+    margin-top: 0.6rem;
+}
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact select,
+#contact textarea {
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    border: 2px solid #422A32;
+    border-radius: 4px;
+    background-color: #FFE9D6;
+    color: #422A32;
+    font-family: "Roboto Slab";
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+#contact input:focus,
+#contact select:focus,
+#contact textarea:focus {
+    outline: 3px solid #422A32;
+    background-color: #fff;
+}
+#contact textarea {
+    height: 8rem;
+    resize: vertical;
+}
+
+/* Radio fieldset */
+#contact fieldset fieldset {
+    border: 2px dashed #422A32;
+    background-color: #FFE9D6;
+    padding: 0.75rem 1rem 0.75rem;
+    margin-top: 0.4rem;
+}
+#contact fieldset fieldset legend {
+    font-size: 1rem;
+    float: left;
+    margin-bottom: 0.5rem;
+}
+#contact fieldset fieldset ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0 0;
+    display: flex;
+    gap: 2rem;
+    clear: left;
+}
+#contact fieldset fieldset li {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+#contact input[type="radio"] {
+    accent-color: #422A32;
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+/* Submit button */
+#contact button[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    background-color: #422A32;
+    color: #FFE9D6;
+    font-family: "Bricolage Grotesque";
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    justify-self: center;
+    width: 100%;
+    letter-spacing: 0.05em;
+    transition: background-color 0.2s, transform 0.1s;
+}
+#contact button[type="submit"]:hover {
+    background-color: #5e3a46;
+}
+#contact button[type="submit"]:active {
+    transform: scale(0.98);
+}
+
+/* Tablet */
+@media (min-width: 600px) {
+    #contact form > fieldset {
+        grid-template-columns: auto 1fr;
+        align-items: start;
+    }
+    #contact label {
+        text-align: right;
+        padding-top: 0.65rem;
+    }
+    /*spans both columns */
+    #contact legend,
+    #contact fieldset fieldset,
+    #contact button[type="submit"] {
+        grid-column: 1 / -1;
+    }
+    #contact button[type="submit"] {
+        width: auto;
+        justify-self: end;
+        padding: 0.8rem 3rem;
+    }
+}
+
 footer {
     background-color:#89C792;
     border: 2px solid #89C792;

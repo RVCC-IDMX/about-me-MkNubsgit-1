@@ -151,6 +151,60 @@
                     <p class="video caption">An overview of my midterm site!</p>
                 </section>
 
+                <section id="contact">
+                    <h2>Contact Me!</h2>
+                    <form action="#" method="POST">
+                        <fieldset>
+                            <legend>Contact Form</legend>
+
+                            <label for="name">Name <span
+                                    aria-hidden="true">*</span></label>
+                            <input type="text" id="name" name="name" required
+                                placeholder="Your Name">
+
+                            <label for="email">Email <span
+                                    aria-hidden="true">*</span></label>
+                            <input type="email" id="email" name="email" required
+                                placeholder="youremail@email.com">
+
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone"
+                                placeholder="xxx-xxx-xxxx">
+
+                            <label for="phone-type">Phone Type</label>
+                            <select id="phone-type" name="phone-type">
+                                <option value="">-- Select --</option>
+                                <option value="mobile">Mobile</option>
+                                <option value="home">Home</option>
+                                <option value="work">Work</option>
+                            </select>
+
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5"
+                                placeholder="Your message here"></textarea>
+
+                            <fieldset>
+                                <legend>Would you like a follow-up?</legend>
+                                <ul>
+                                    <li>
+                                        <input type="radio" id="followup-yes"
+                                            name="followup" value="yes">
+                                        <label for="followup-yes">Yup!</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="followup-no"
+                                            name="followup" value="no" checked>
+                                        <label for="followup-no">Nope.</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                            <button type="submit">Submit</button>
+
+                        </fieldset>
+                    </form>
+                </section>
+
             </main>
 
             <footer>
