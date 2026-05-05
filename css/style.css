@@ -4,8 +4,8 @@
 
 body {
     font-family: "Roboto Slab";
-    background-color: #FFE9D6;
-    color: #422A32;
+    background-color: #F4F1E9;
+    color: #1A2210;
     margin: 0;
     padding: 0;
 }
@@ -34,8 +34,8 @@ header > h1 {
 /* HERO */
 
 #hero {
-    background-color: #89C792;
-    border: 2px solid #89C792;
+    background-color: #7A9477;
+    border: 2px solid #7A9477;
     text-align: center;
     padding: 1rem;
 }
@@ -70,7 +70,7 @@ main > img {
 #hobbies ul {
     list-style: square;
     text-align: left;
-    background-color: #d4e3ff;
+    background-color: #C8D2B5;
     padding: 1.25rem 1.5rem;
 
     /* single column on mobile */
@@ -85,7 +85,7 @@ main > img {
     width: 100%;
     max-width: 60rem;
     margin: 0 auto 2rem;
-    border: 0.35rem solid #422A32;
+    border: 0.35rem solid #1A2210;
     box-sizing: border-box;
 }
 
@@ -102,14 +102,14 @@ main > img {
 }
 
 #gallery hr {
-    border-color: #422A32;
+    border-color: #1A2210;
 }
 
 /* LITERATURE */
 
 #lit {
     padding: 1.25rem;
-    border: 0.35rem solid #422A32;
+    border: 0.35rem solid #1A2210;
     margin: 1.5rem auto;
     max-width: 50rem;
     text-align: left;
@@ -118,13 +118,13 @@ main > img {
 
 /* drop-caps */
 #lit div p::first-letter {
-    color: #422A32;
+    color: #1A2210;
     float: left;
     font-size: 3em;
     padding: 0.15em;
     margin-right: 0.2em;
     line-height: 0.65;
-    border: 4px outset #422A32;
+    border: 4px outset #1A2210;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -148,7 +148,7 @@ main > img {
 .video-caption {
     margin-top: 0.5rem;
     font-size: 0.9rem;
-    color: #555;
+    color: #5A6B53;
 }
 
 /* CONTACT */
@@ -165,8 +165,8 @@ main > img {
 }
 
 #contact form > fieldset {
-    background-color: #89C792;
-    border: 0.35rem solid #422A32;
+    background-color: #7A9477;
+    border: 0.35rem solid #1A2210;
     padding: 1.5rem 1.25rem;
 
     /* single column on mobile */
@@ -180,7 +180,7 @@ main > img {
     font-family: "Bricolage Grotesque";
     font-size: 1.2rem;
     font-weight: bold;
-    color: #422A32;
+    color: #1A2210;
     padding: 0;
     float: left;
     margin-bottom: 0.75rem;
@@ -198,10 +198,10 @@ main > img {
 #contact textarea {
     width: 100%;
     padding: 0.6rem 0.75rem;
-    border: 2px solid #422A32;
+    border: 2px solid #1A2210;
     border-radius: 4px;
-    background-color: #FFE9D6;
-    color: #422A32;
+    background-color: #F4F1E9;
+    color: #1A2210;
     font-family: "Roboto Slab";
     font-size: 1rem;
     box-sizing: border-box;
@@ -210,7 +210,7 @@ main > img {
 #contact input:focus,
 #contact select:focus,
 #contact textarea:focus {
-    outline: 3px solid #422A32;
+    outline: 3px solid #1A2210;
     background-color: #fff;
 }
 
@@ -221,8 +221,8 @@ main > img {
 
 /* radio fieldset */
 #contact fieldset fieldset {
-    border: 2px dashed #422A32;
-    background-color: #FFE9D6;
+    border: 2px dashed #1A2210;
+    background-color: #F4F1E9;
     padding: 0.75rem 1rem;
     margin-top: 0.4rem;
     grid-column: 1 / -1;
@@ -251,7 +251,7 @@ main > img {
 }
 
 #contact input[type="radio"] {
-    accent-color: #422A32;
+    accent-color: #1A2210;
     width: 1.1rem;
     height: 1.1rem;
 }
@@ -260,8 +260,8 @@ main > img {
 #contact button[type="submit"] {
     margin-top: 1rem;
     padding: 0.8rem 2rem;
-    background-color: #422A32;
-    color: #FFE9D6;
+    background-color: #1A2210;
+    color: #F4F1E9;
     font-family: "Bricolage Grotesque";
     font-size: 1.1rem;
     border: none;
@@ -275,7 +275,7 @@ main > img {
 }
 
 #contact button[type="submit"]:hover {
-    background-color: #5e3a46;
+    background-color: #3F5236;
 }
 
 #contact button[type="submit"]:active {
@@ -285,8 +285,8 @@ main > img {
 /* FOOTER */
 
 footer {
-    background-color: #89C792;
-    border: 2px solid #89C792;
+    background-color: #7A9477;
+    border: 2px solid #7A9477;
     text-align: center;
     padding: 10px;
     margin-top: 2rem;
