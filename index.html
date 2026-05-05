@@ -24,196 +24,194 @@
         <header>
             <img src="img/logo-96X96.svg" alt="Origami crane, blue in color">
             <h1>Web Dev I</h1>
-
-            <main>
-                <!--the main envelops important page content-->
-                <img src="img/avataaars.png" alt="My avatar">
-
-                <!--Name and location-->
-                <section id="hero">
-                    <div>
-                        <p>Misha Evans</p>
-                        <p>Branchburg, NJ</p>
-                    </div>
-                </section>
-
-                <!--I want to be... section-->
-                <section id="bio">
-
-                    <h2>Biography:</h2>
-
-                    <div>
-                        <p>I want to be...</p>
-                        <p>A system administrator!</p>
-                        <p>Better at deadlock! " A Valve-made moba game"</p>
-
-                    </div>
-                </section>
-
-                <!-- Hobbies Section -->
-                <section id="hobbies">
-                    <h2>Hobbies:</h2>
-                    <ul>
-                        <li>Alpine &amp; Downhill Skiing</li>
-                        <li>Motorcycle Riding</li>
-                        <li>Chess</li>
-                        <li>Music (The big hobby: I play over 10 instruments!)
-                        </li>
-                        <li>Soldering &amp; electronics repair &amp; tinkering
-                        </li>
-                        <li>Rubik's cube solving</li>
-                    </ul>
-                </section>
-
-                <section id="gallery">
-                    <h2>Photo gallery</h2>
-
-                    <hr>
-
-                    <figure>
-                        <img src="img/short-chess-640w.jpg"
-                            alt="a chessboard, mid-game, on a dining room table">
-                        <figcaption>A game of chess</figcaption>
-
-                        <hr>
-
-                        <figure>
-                            <img src="img/short-moto-640w.jpg"
-                                alt="motorcycle sitting in front of auto parts store">
-                            <figcaption>My motorcycle in front of a parts store!
-                            </figcaption>
-                        </figure>
-
-                        <hr>
-
-                        <figure>
-                            <img src="img/short-ski-640w.jpg"
-                                alt="skiiers sitting on a ski lift, snow below and ski tips in frame">
-                            <figcaption>My friend and I on a skiing trip
-                            </figcaption>
-                        </figure>
-
-                    </figure>
-                </section>
-
-                <article id="lit">
-
-                    <h2>An Excerpt from Dracula</h2>
-
-                    <div>
-                        <p>I am beginning to feel this nocturnal existence tell
-                            on me. It is destroying
-                            my nerve. I start at my own shadow, and am full of
-                            all sorts of horrible
-                            imaginings. God knows that there is ground for my
-                            terrible fear in this
-                            accursed place! I looked out over the beautiful
-                            expanse, bathed in soft
-                            yellow moonlight till it was almost as light as day.
-                        </p>
-
-                        <p>How these papers have been placed in sequence will be
-                            made manifest in the
-                            reading of them. All needless matters have been
-                            eliminated, so that a
-                            history almost at variance with the possibilities of
-                            later-day belief may
-                            stand forth as simple fact. There is throughout no
-                            statement of past things
-                            wherein memory may err, for all the records chosen
-                            are exactly contemporary,
-                            given from the standpoints and within the range of
-                            knowledge of those who
-                            made them.</p>
-
-                        <p>We kept on ascending, with occasional periods of
-                            quick descent, but in the
-                            main always ascending. Suddenly, I became conscious
-                            of the fact that the
-                            driver was in the act of pulling up the horses in
-                            the courtyard of a vast
-                            ruined castle, from whose tall black windows came no
-                            ray of light, and whose
-                            broken battlements showed a jagged line against the
-                            moonlit sky.</p>
-                    </div>
-
-                </article>
-
-                <section id="video">
-                    <iframe id="myVideo" width="560" height="315"
-                        src="https://www.youtube.com/embed/wjmhV0uid78?si=DcGrJ5W3ggfesRy1"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"
-                        allowfullscreen></iframe>
-
-                    <p class="video caption">An overview of my midterm site!</p>
-                </section>
-
-
-                <!--Contact form-->
-                <section id="contact">
-                    <h2>Contact Me!</h2>
-                    <form action="#" method="POST" data-netlify="true">
-                        <fieldset>
-                            <legend>Contact Form</legend>
-
-                            <label for="name">Name <span
-                                    aria-hidden="true">*</span></label>
-                            <input type="text" id="name" name="name" required
-                                placeholder="Your Name">
-
-                            <label for="email">Email <span
-                                    aria-hidden="true">*</span></label>
-                            <input type="email" id="email" name="email" required
-                                placeholder="youremail@email.com">
-
-                            <label for="phone">Phone</label>
-                            <input type="tel" id="phone" name="phone"
-                                placeholder="xxx-xxx-xxxx">
-
-                            <label for="phone-type">Phone Type</label>
-                            <select id="phone-type" name="phone-type">
-                                <option value="">-- Select --</option>
-                                <option value="mobile">Mobile</option>
-                                <option value="home">Home</option>
-                                <option value="work">Work</option>
-                            </select>
-
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5"
-                                placeholder="Your message here"></textarea>
-
-                            <fieldset>
-                                <legend>Would you like a follow-up?</legend>
-                                <ul>
-                                    <li>
-                                        <input type="radio" id="followup-yes"
-                                            name="followup" value="yes">
-                                        <label for="followup-yes">Yup!</label>
-                                    </li>
-                                    <li>
-                                        <input type="radio" id="followup-no"
-                                            name="followup" value="no" checked>
-                                        <label for="followup-no">Nope.</label>
-                                    </li>
-                                </ul>
-                            </fieldset>
-
-                            <button type="submit">Submit</button>
-
-                        </fieldset>
-                    </form>
-                </section>
-
-            </main>
-
-            <footer>
-                ©2026 - Misha Evans
-            </footer>
-
         </header>
+
+        <main>
+            <!--the main envelops important page content-->
+            <img src="img/avataaars.png" alt="My avatar">
+
+            <!--Name and location-->
+            <section id="hero">
+                <div>
+                    <p>Misha Evans</p>
+                    <p>Branchburg, NJ</p>
+                </div>
+            </section>
+
+            <!--I want to be... section-->
+            <section id="bio">
+
+                <h2>Biography:</h2>
+
+                <div>
+                    <p>I want to be...</p>
+                    <p>A system administrator!</p>
+                    <p>Better at deadlock! " A Valve-made moba game"</p>
+
+                </div>
+            </section>
+
+            <!-- Hobbies Section -->
+            <section id="hobbies">
+                <h2>Hobbies:</h2>
+                <ul>
+                    <li>Alpine &amp; Downhill Skiing</li>
+                    <li>Motorcycle Riding</li>
+                    <li>Chess</li>
+                    <li>Music (The big hobby: I play over 10 instruments!)
+                    </li>
+                    <li>Soldering &amp; electronics repair &amp; tinkering
+                    </li>
+                    <li>Rubik's cube solving</li>
+                </ul>
+            </section>
+
+            <section id="gallery">
+                <h2>Photo gallery</h2>
+
+                <hr>
+
+                <figure>
+                    <img src="img/short-chess-640w.jpg"
+                        alt="a chessboard, mid-game, on a dining room table">
+                    <figcaption>A game of chess</figcaption>
+                </figure>
+
+                <hr>
+
+                <figure>
+                    <img src="img/short-moto-640w.jpg"
+                        alt="motorcycle sitting in front of auto parts store">
+                    <figcaption>My motorcycle in front of a parts store!
+                    </figcaption>
+                </figure>
+
+                <hr>
+
+                <figure>
+                    <img src="img/short-ski-640w.jpg"
+                        alt="skiiers sitting on a ski lift, snow below and ski tips in frame">
+                    <figcaption>My friend and I on a skiing trip
+                    </figcaption>
+                </figure>
+            </section>
+
+            <article id="lit">
+
+                <h2>An Excerpt from Dracula</h2>
+
+                <div>
+                    <p>I am beginning to feel this nocturnal existence tell
+                        on me. It is destroying
+                        my nerve. I start at my own shadow, and am full of
+                        all sorts of horrible
+                        imaginings. God knows that there is ground for my
+                        terrible fear in this
+                        accursed place! I looked out over the beautiful
+                        expanse, bathed in soft
+                        yellow moonlight till it was almost as light as day.
+                    </p>
+
+                    <p>How these papers have been placed in sequence will be
+                        made manifest in the
+                        reading of them. All needless matters have been
+                        eliminated, so that a
+                        history almost at variance with the possibilities of
+                        later-day belief may
+                        stand forth as simple fact. There is throughout no
+                        statement of past things
+                        wherein memory may err, for all the records chosen
+                        are exactly contemporary,
+                        given from the standpoints and within the range of
+                        knowledge of those who
+                        made them.</p>
+
+                    <p>We kept on ascending, with occasional periods of
+                        quick descent, but in the
+                        main always ascending. Suddenly, I became conscious
+                        of the fact that the
+                        driver was in the act of pulling up the horses in
+                        the courtyard of a vast
+                        ruined castle, from whose tall black windows came no
+                        ray of light, and whose
+                        broken battlements showed a jagged line against the
+                        moonlit sky.</p>
+                </div>
+
+            </article>
+
+            <section id="video">
+                <iframe id="myVideo" width="560" height="315"
+                    src="https://www.youtube.com/embed/wjmhV0uid78?si=DcGrJ5W3ggfesRy1"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen></iframe>
+
+                <p class="video-caption">An overview of my midterm site!</p>
+            </section>
+
+
+            <!--Contact form-->
+            <section id="contact">
+                <h2>Contact Me!</h2>
+                <form action="#" method="POST" data-netlify="true">
+                    <fieldset>
+                        <legend>Contact Form</legend>
+
+                        <label for="name">Name <span
+                                aria-hidden="true">*</span></label>
+                        <input type="text" id="name" name="name" required
+                            placeholder="Your Name">
+
+                        <label for="email">Email <span
+                                aria-hidden="true">*</span></label>
+                        <input type="email" id="email" name="email" required
+                            placeholder="youremail@email.com">
+
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone"
+                            placeholder="xxx-xxx-xxxx">
+
+                        <label for="phone-type">Phone Type</label>
+                        <select id="phone-type" name="phone-type">
+                            <option value="">-- Select --</option>
+                            <option value="mobile">Mobile</option>
+                            <option value="home">Home</option>
+                            <option value="work">Work</option>
+                        </select>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5"
+                            placeholder="Your message here"></textarea>
+
+                        <fieldset>
+                            <legend>Would you like a follow-up?</legend>
+                            <ul>
+                                <li>
+                                    <input type="radio" id="followup-yes"
+                                        name="followup" value="yes">
+                                    <label for="followup-yes">Yup!</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="followup-no"
+                                        name="followup" value="no" checked>
+                                    <label for="followup-no">Nope.</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+
+                        <button type="submit">Submit</button>
+
+                    </fieldset>
+                </form>
+            </section>
+
+        </main>
+
+        <footer>
+            ©2026 - Misha Evans
+        </footer>
 
         <p>Now on Netlify!</p>
     </body>
