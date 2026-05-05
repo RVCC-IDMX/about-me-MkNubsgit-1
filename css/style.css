@@ -1,4 +1,4 @@
-/* ABOUT ME - style.css */
+/* about-me - style.css */
 
 /* BASE / MOBILE */
 
@@ -15,13 +15,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.8rem;
 }
 
-/*HEADER*/
+/* HEADER */
 
 header {
     text-align: center;
 }
 
-header > img {                /* logo */
+header > img {
     width: 60px;
     margin-top: 0.75rem;
 }
@@ -31,7 +31,7 @@ header > h1 {
     font-size: 1.6rem;
 }
 
-/*   HERO   */
+/* HERO */
 
 #hero {
     background-color: #89C792;
@@ -40,7 +40,6 @@ header > h1 {
     padding: 1rem;
 }
 
-/* avatar */
 #hero img,
 main > img {
     width: 100%;
@@ -55,14 +54,14 @@ main > img {
     font-size: 1.1rem;
 }
 
-/*   BIO   */
+/* BIO */
 
 #bio {
     text-align: center;
     padding: 1rem;
 }
 
-/*  HOBBIES */
+/* HOBBIES */
 
 #hobbies {
     padding: 1rem;
@@ -80,7 +79,7 @@ main > img {
     gap: 0.5rem;
 }
 
-/*   GALLERY   */
+/* GALLERY */
 
 #gallery {
     width: 100%;
@@ -96,7 +95,6 @@ main > img {
     padding: 0.5rem;
 }
 
-/* make gallery images fill their container */
 #gallery img {
     width: 100%;
     height: auto;
@@ -107,7 +105,7 @@ main > img {
     border-color: #422A32;
 }
 
-/*   LITERATURE   */
+/* LITERATURE */
 
 #lit {
     padding: 1.25rem;
@@ -118,7 +116,7 @@ main > img {
     box-sizing: border-box;
 }
 
-/* Drop-caps */
+/* drop-caps */
 #lit div p::first-letter {
     color: #422A32;
     float: left;
@@ -130,7 +128,7 @@ main > img {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/*   VIDEO   */
+/* VIDEO */
 
 #video {
     text-align: center;
@@ -153,7 +151,7 @@ main > img {
     color: #555;
 }
 
-/*   CONTACT   */
+/* CONTACT */
 
 #contact {
     max-width: 50rem;
@@ -221,7 +219,7 @@ main > img {
     resize: vertical;
 }
 
-/* Radio fieldset */
+/* radio fieldset */
 #contact fieldset fieldset {
     border: 2px dashed #422A32;
     background-color: #FFE9D6;
@@ -258,7 +256,7 @@ main > img {
     height: 1.1rem;
 }
 
-/* Submit button */
+/* submit button */
 #contact button[type="submit"] {
     margin-top: 1rem;
     padding: 0.8rem 2rem;
@@ -284,7 +282,7 @@ main > img {
     transform: scale(0.98);
 }
 
-/*   FOOTER   */
+/* FOOTER */
 
 footer {
     background-color: #89C792;
@@ -294,7 +292,7 @@ footer {
     margin-top: 2rem;
 }
 
-/* TABLET  —  min-width: 600px */
+/* TABLET — min-width: 600px */
 
 @media (min-width: 600px) {
 
@@ -310,19 +308,16 @@ footer {
         font-size: 2rem;
     }
 
-    /* Avatar a bit larger */
     #hero img,
     main > img {
         max-width: 280px;
     }
 
-    /* Hobbies 2-column grid */
     #hobbies ul {
         grid-template-columns: 1fr 1fr;
         gap: 0.5rem 2rem;
     }
 
-    /* Contact label + input two-column layout */
     #contact form > fieldset {
         grid-template-columns: auto 1fr;
         align-items: start;
@@ -334,7 +329,7 @@ footer {
         padding-top: 0.65rem;
     }
 
-    /* Items that span both columns */
+    /* span both columns */
     #contact legend,
     #contact fieldset fieldset,
     #contact button[type="submit"] {
@@ -347,13 +342,12 @@ footer {
         padding: 0.8rem 3rem;
     }
 
-    /* Literature restore padding */
     #lit {
         padding: 2rem;
     }
 }
 
-/* DESKTOP  —  min-width: 900px */
+/* DESKTOP — min-width: 900px */
 
 @media (min-width: 900px) {
 
@@ -369,7 +363,6 @@ footer {
         width: 96px;
     }
 
-    /* Avatar*/
     #hero img,
     main > img {
         max-width: 300px;
@@ -383,25 +376,21 @@ footer {
         font-size: 1.25rem;
     }
 
-    /* Gallery*/
     #gallery {
         border-width: 0.5rem;
     }
 
-    /* Literature */
     #lit {
         border-width: 0.5rem;
         padding: 2.5rem;
     }
 
-    /* Video embed*/
     #myVideo {
         max-width: 560px;
     }
 
-    /* Contact */
     #contact {
-        padding: 0;           /* centered by margin: auto */
+        padding: 0;
     }
 
     #contact form > fieldset {
