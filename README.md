@@ -23,6 +23,14 @@ An overview of what I picked up where:
 
 Netlify redeploys whenever I push to `main` without [skip netlify]
 
+## Nav Bar
+
+The nav bar at the top has the logo on the left and four anchor links (Bio, Gallery, Blog, Contact Me) that jump to those sections on the page using fragment IDs and `scroll-behavior: smooth`.
+
+Below 600px wide, the link list collapses behind a hamburger icon. The toggle is pure CSS, no JavaScript. There's a hidden `<input type="checkbox">` inside the navbar, and the visible hamburger is a `<label>` for that checkbox. Clicking the label flips the checkbox state, and a `:checked ~ .navbar-links` selector reveals the menu. The three bars also morph into an X via CSS transforms when checked.
+
+At 600px and up, the hamburger hides and the links go back to a horizontal row.
+
 ## Color Scheme
 
 |        | Hex       | RGB                   | Locations                                  |

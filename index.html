@@ -7,7 +7,7 @@
 
         <title>About Me</title>
 
-        <!--Import google fonts: Roboto slab & Bricolage Grotesque, MORE LATER POTENTIALLY-->
+        <!--Import google fonts: Roboto slab & Bricolage Grotesque-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
@@ -25,6 +25,8 @@
 
     <body>
         <!--the body element contains all content shown to a visitor-->
+
+        <!-- Header: nav bar with logo + links -->
         <header>
             <nav class="navbar">
                 <div class="logo">
@@ -32,6 +34,13 @@
                         alt="ME monogram logo, sage circle with dark green M and black E">
                     <h1>Web Dev I</h1>
                 </div>
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label"
+                    aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
                 <div class="navbar-links">
                     <ul>
                         <li><a href="#bio" class="nav-links">Bio</a></li>
@@ -123,6 +132,7 @@
                 </ul>
             </section>
 
+            <!-- Photo gallery -->
             <section id="gallery">
                 <h2>Photo gallery</h2>
 
@@ -153,6 +163,7 @@
                 </figure>
             </section>
 
+            <!-- Blog article: animated SVG -->
             <article id="lit">
 
                 <h2>How Animated SVG Works</h2>
@@ -261,6 +272,7 @@
 
             </article>
 
+            <!-- Embedded video -->
             <section id="video">
                 <iframe id="myVideo" width="560" height="315"
                     src="https://www.youtube.com/embed/wjmhV0uid78?si=DcGrJ5W3ggfesRy1"
