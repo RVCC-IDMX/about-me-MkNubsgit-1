@@ -56,9 +56,9 @@ The writing, the photos in the gallery, and the YouTube clip are all supplied by
 
 The "How Animated SVG Works" article in the Blog section referenced these 3 sources:
 
-https://en.wikipedia.org/wiki/SVG
-https://www.figma.com/community/plugin/980366185319754464
-https://www.w3schools.com/graphics/svg_animation.asp
+- <https://en.wikipedia.org/wiki/SVG>
+- <https://www.figma.com/community/plugin/980366185319754464>
+- <https://www.w3schools.com/graphics/svg_animation.asp>
 
 ## License
 
