@@ -1,3 +1,5 @@
+<img src="img/me-logo.svg" alt="ME monogram logo" width="100">
+
 # About Me — Misha Evans
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/935da2ec-0127-4cc2-89aa-cf2e82aa6a96/deploy-status)](https://app.netlify.com/projects/about-me-mknubsgit-1/deploys)
@@ -23,21 +25,21 @@ Netlify redeploys whenever I push to `main` without [skip netlify]
 
 ## Color Scheme
 
-| | Hex | RGB | Locations |
-|---|---|---|---|
-| ![](https://placehold.co/30x30/2A4810/2A4810.png) | `#2A4810` | `rgb(42, 72, 16)` | Navbar background |
-| ![](https://placehold.co/30x30/1A2210/1A2210.png) | `#1A2210` | `rgb(26, 34, 16)` | Body text, borders, submit button |
-| ![](https://placehold.co/30x30/3F5236/3F5236.png) | `#3F5236` | `rgb(63, 82, 54)` | Submit button hover |
-| ![](https://placehold.co/30x30/5A6B53/5A6B53.png) | `#5A6B53` | `rgb(90, 107, 83)` | Video caption |
+|        | Hex       | RGB                   | Locations                                  |
+|--------|-----------|-----------------------|--------------------------------------------|
+| ![](https://placehold.co/30x30/2A4810/2A4810.png) | `#2A4810` | `rgb(42, 72, 16)`    | Navbar background                          |
+| ![](https://placehold.co/30x30/1A2210/1A2210.png) | `#1A2210` | `rgb(26, 34, 16)`    | Body text, borders, submit button          |
+| ![](https://placehold.co/30x30/3F5236/3F5236.png) | `#3F5236` | `rgb(63, 82, 54)`    | Submit button hover                        |
+| ![](https://placehold.co/30x30/5A6B53/5A6B53.png) | `#5A6B53` | `rgb(90, 107, 83)`   | Video caption                              |
 | ![](https://placehold.co/30x30/7A9477/7A9477.png) | `#7A9477` | `rgb(122, 148, 119)` | Hero, contact form, footer, nav-link hover |
-| ![](https://placehold.co/30x30/C8D2B5/C8D2B5.png) | `#C8D2B5` | `rgb(200, 210, 181)` | Hobbies block |
-| ![](https://placehold.co/30x30/F4F1E9/F4F1E9.png) | `#F4F1E9` | `rgb(244, 241, 233)` | Page background |
+| ![](https://placehold.co/30x30/C8D2B5/C8D2B5.png) | `#C8D2B5` | `rgb(200, 210, 181)` | Hobbies block                              |
+| ![](https://placehold.co/30x30/F4F1E9/F4F1E9.png) | `#F4F1E9` | `rgb(244, 241, 233)` | Page background                            |
 
 ## Citations
 
 The writing, the photos in the gallery, and the YouTube clip are all supplied by Misha Evans (me!). The things that aren't made purely on my own:
 
-- **BOB** (`img/logo-96X96.svg`)  from CodePen assets: <https://assets.codepen.io/385852/logo-96X96.svg>. ## EDIT THIS BEFORE PUSHING FINAL SUBMIT ##
+- **BOB** (`img/logo-96X96.svg`)  from CodePen assets: <https://assets.codepen.io/385852/logo-96X96.svg>. Earlier placeholder logo, now replaced by my own monogram but kept in the repo.
 - **Avatar** (`img/avataaars.png`)  made with [Avataaars](https://avataaars.com/) by Pablo Stanley.
 - **Fonts:** Roboto Slab (body) and Bricolage Grotesque (headings), from Google Fonts.
 - **`nav.css` comment template**  adapted from a starter gist by Cynthia Teeters: <https://gist.github.com/cynthiateeters/4e8bf8cc129d057cdb3c924447253ef2>.
