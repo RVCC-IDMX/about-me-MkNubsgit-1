@@ -44,6 +44,14 @@ The writing, the photos in the gallery, and the YouTube clip are all supplied by
 - **Fonts:** Roboto Slab (body) and Bricolage Grotesque (headings), from Google Fonts.
 - **`nav.css` comment template**  adapted from a starter gist by Cynthia Teeters: <https://gist.github.com/cynthiateeters/4e8bf8cc129d057cdb3c924447253ef2>.
 
+### Blog article references
+
+The "How Animated SVG Works" article in the Blog section referenced these 3 sources:
+
+https://en.wikipedia.org/wiki/SVG
+https://www.figma.com/community/plugin/980366185319754464
+https://www.w3schools.com/graphics/svg_animation.asp
+
 ## License
 
 Code (HTML and CSS) Free use.
